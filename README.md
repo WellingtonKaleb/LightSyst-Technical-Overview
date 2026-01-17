@@ -52,15 +52,16 @@ Módulo financeiro flexível que suporta divisões de conta e múltiplos método
 
 ---
 
-## 🛠️ Stack Técnica e Engenharia
-O desenvolvimento do **LightSyst** foca na robustez industrial e na eficiência de entrega, utilizando ferramentas de ponta para garantir um código limpo e escalável.
+## 🛠️ Engenharia de Software e Stack Técnica
+O **LightSyst** foi projetado com uma arquitetura híbrida de alta disponibilidade, unindo o poder da nuvem com a segurança do processamento local.
 
-* **Linguagem & Framework:** Java 11+ gerenciado com **Maven**, garantindo uma estrutura de build padronizada e profissional.
-* **Persistência em Nuvem:** Integração nativa com **Google Firebase (Cloud Firestore)**, permitindo sincronização de dados em tempo real entre diferentes terminais do restaurante.
-* **Segurança de Dados:** Implementação de camadas de segurança com **BCrypt** para proteção de credenciais, seguindo padrões modernos de segurança da informação.
-* **Desenvolvimento Assistido por IA:** O projeto utiliza ferramentas de **IA Generativa (como GitHub Copilot)** para otimização de algoritmos, refatoração de código e aceleração do ciclo de desenvolvimento, garantindo maior produtividade e qualidade técnica.
-* **Arquitetura UI/UX:** Interface construída em **Dark Mode** de alta fidelidade, projetada para reduzir o cansaço visual e otimizar o fluxo de trabalho operacional.
+* **Arquitetura de Dados Híbrida:** Utiliza **Google Firebase (Cloud Firestore)** para sincronização em tempo real na nuvem e **SQLite** para persistência local, garantindo que o sistema opere perfeitamente mesmo em cenários de instabilidade de conexão.
+* **Desenvolvimento Assistido por IA (Next-Gen):** O projeto é desenvolvido utilizando o **GitHub Copilot Pro** para aceleração de escrita de código e **Google Gemini** para auxílio em arquitetura e lógica complexa, demonstrando proficiência no uso de ferramentas de produtividade de última geração.
+* **Segurança e Proteção:** Implementação de camadas de segurança com **BCrypt** para o tratamento de senhas e credenciais.
+* **Interface Industrial:** Design em **Dark Mode** de alta fidelidade (UI/UX), otimizado para operação contínua em telas de PDV e gestão de mesas.
 
-## 🧪 Diferenciais do Projeto
-* **Cálculos de Precisão:** Lógica de fechamento de conta com suporte a taxas de serviço, descontos variáveis e divisão por número de clientes.
-* **Monitoramento Ativo:** Dashboard com análise de faturamento diário e alertas automáticos de estoque baixo.
+## 🗺️ Roadmap de Evolução
+- [x] Arquitetura Híbrida (Nuvem + Local).
+- [x] Gestão de Pedidos e Dashboards em tempo real.
+- [ ] **LightSyst Mobile:** Desenvolvimento de aplicativo dedicado para garçons (comanda eletrônica).
+- [ ] Integração com periféricos (Impressoras térmicas e Balanças).
